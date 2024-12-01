@@ -4,8 +4,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/sannketnikam/chatbot)
 
-The goal of this project is to create a chatbot that can understand and respond to user input based on intents. The chatbot is built using Natural Language Processing (NLP) library and Logistic Regression, to extract the intents and entities from user input. The chatbot is built using Streamlit, a Python library for building interactive web applications.
-
+This project aims to develop a chatbot that can interpret and respond to user input based on identified intents. It leverages Natural Language Processing (NLP) techniques along with Logistic Regression to extract intents and entities from user messages. The chatbot is built using the Streamlit framework, which facilitates the creation of interactive web applications. Key libraries used include NLTK for NLP tasks, scikit-learn for machine learning, and Streamlit for the user interface. 
 # Project Overview
 The project is divided into two parts:
 1. NLP techniques and Logistic Regression algorithm is used to train the chatbot on labeled intents and entities.
