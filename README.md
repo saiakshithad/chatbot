@@ -28,3 +28,6 @@ Streamlit is used for building the chatbot's interface. The interface consists o
 
 ## Conclusion
 A chatbot that can comprehend and react to user input based on intentions is created in this project. NLP and logistic regression were used to train the chatbot, and Streamlit was used to create the user interface. More data, advanced NLP methods, and deep learning algorithms might all be used to expand this research.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
