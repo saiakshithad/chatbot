@@ -27,9 +27,12 @@ clf = LogisticRegression(random_state=0, max_iter=10000)
 tags = []
 patterns = []
 for intent in intents:
-    for pattern in intent['patterns']:
-        tags.append(intent['tag'])
-        patterns.append(pattern)
+     if isinstance(intent, dict):
+        # Ensure the 'patterns' key exists in the dictionary
+        if 'patterns' in intent:
+            for pattern in intent['patterns']:
+                tags.append(intent['tag'])   # Add the tag
+                patterns.append(pattern) 
 
 # training the model
 x = vectorizer.fit_transform(patterns)
